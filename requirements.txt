@@ -1,0 +1,6 @@
+https://github.com/Gelbpunkt/alpine-python-3.8-wheels/raw/master/wheels/yarl-1.3.0-cp38-cp38-linux_x86_64.whl
+https://github.com/Gelbpunkt/alpine-python-3.8-wheels/raw/master/wheels/multidict-4.5.2-cp38-cp38-linux_x86_64.whl
+https://github.com/Gelbpunkt/alpine-python-3.8-wheels/raw/master/wheels/aiohttp-3.6.1-py3-none-any.whl
+gidgethub
+PyJWT
+cryptography
