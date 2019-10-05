@@ -66,7 +66,7 @@ async def main(request):
         )
 
         gh = gh_aiohttp.GitHubAPI(
-            session, "Gelbpunkt/BumpRelease", oauth_token=access_token["token"]
+            session, "Gelbpunkt/mystic-warrior", oauth_token=access_token["token"]
         )
 
         # call the appropriate callback for the event
