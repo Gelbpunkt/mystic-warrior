@@ -20,7 +20,7 @@ async def pr_opened_event(event, gh, *args, **kwargs):
     await gh.post(
         event.data["pull_request"]["comments_url"],
         data={
-            "body": f"Thank you for contributing to IdleRPG, @{author}! Please wait a while until a Developee reviews your contribution.\nA CI build has started. If it fails, please fix your code and it'll automatically retry.\n\nI am a bot. *Beep boop*"
+            "body": f"Thank you for contributing to IdleRPG, @{author}! Please wait a while until a Developer reviews your contribution.\nA CI build has started. If it fails, please fix your code and it'll automatically retry.\n\nI am a bot. *Beep boop*"
         },
     )
     await gh.post(event.data["pull_request"]["labels_url"], data=["needs review"])
